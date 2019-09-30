@@ -836,7 +836,7 @@ def reply_news(room_id, arguments, mscs):
     twim_banner = "(last TWIM) " if len(arguments) > 0 and arguments[
         0].lower() == "twim" else ""
 
-    response = """News from **%s** %stil **%s**.
+    response = """News from **%s** %suntil **%s**.
     
 <pre><code>
 **Approved MSCs**
